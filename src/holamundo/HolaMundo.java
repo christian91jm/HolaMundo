@@ -15,12 +15,13 @@ public class HolaMundo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
         Scanner entrada= new Scanner(System.in);
         String nombre;
-        System.out.println("Introduce tu nombre:");
+        System.out.println("Introduce tu nombre en mayusculas:");
         nombre=entrada.next();
         System.out.println("Hola Mundo! Me llamo: "+nombre);
+        System.out.println("Adios");
     }
     
 }
